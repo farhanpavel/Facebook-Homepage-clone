@@ -1,0 +1,140 @@
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+    font-family: klavika-web, sans-serif;
+}
+.mainlogo
+{
+    float: left;
+}
+.message-box{
+    float:right;
+}
+
+.mainlogo h1{
+
+    font-size: 50px;
+    padding: 10px;
+    color: #1877F2;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-top: 180px;
+}
+.mainlogo h2{
+    font-size: 28px;
+    margin-left: 100px;
+    color:#301E21;
+    font-weight: 500;
+}
+.message-box
+{
+margin-top: 120px;
+
+}
+.message-box >div{
+    background-color: #FFFFFF;
+   width: 420px;
+   margin-left: -32%;
+   box-shadow: 2px 3px 5px #cccc;
+}
+.message-box #one input{
+    width: 340px;
+    height: 50px;
+    border-radius: 7px;
+    border:1px #cccc solid;
+    background-color: #FFFFFF;
+    margin-left: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+    }
+    .message-box #two input{
+        width: 340px;
+        height: 50px;
+         border-radius: 7px;
+        border:1px #cccc solid;
+        background-color: #FFFFFF;
+        margin-left: 40px;
+        padding-left: 20px;
+        margin-top: 20px;
+         }
+    .message-box #btn1 button{
+    width: 340px;
+    height: 50px;
+    background-color: #1877F2;
+    border-radius: 7px;
+    border: none;
+    color:white;
+    font-size: 20px;
+    margin-left: 40px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+        }
+        .message-box a{
+        display: block;
+        text-decoration: none;
+        color: #1877F2;
+        margin-left: 135px;
+        background-color: #FFFFFF;
+        /* margin-top:20px; */
+        padding-bottom: 20px;
+        }
+
+        .message-box a:hover{
+            text-decoration: underline;
+        }
+        
+        .message-box #btn2 button{
+        
+         
+            width: 190px;
+            height: 50px;
+            border: none;
+            border-radius: 7px;
+            background-color: #36A420;
+            color: white;
+            font-size: 15px;
+            margin-top: 20px;
+            margin-left: 110px;
+            margin-bottom: 30px;
+        }
+        .message-box #hori{
+            border: 1px #cccc solid;
+            background-color: #FFFFFF;
+        }
+      
+        #last   {
+            background-color: #F0F2F5;
+            font-weight: bolder;
+            color: black;
+            text-decoration: none;
+            margin-top: 20px;
+            font-size: 15px;
+            box-shadow: none;
+           
+           
+        }
+        #last a{
+            background-color: #F0F2F5;
+            display: inline;
+            font-size: 15px;
+            margin-left: 40px;
+            color: #301E21;
+          
+        }
+        

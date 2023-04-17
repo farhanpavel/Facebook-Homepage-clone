@@ -1,0 +1,121 @@
+        *{
+        background-color: #F0F2F5;
+        font-family: klavika-web, sans-serif;
+        }
+
+        .mainlogo h1{
+        font-size: 20px;
+        margin-top: -60px;
+        padding: 10px;
+        color: #1877F2;
+        font-weight: 600;
+        margin-left: 30px;
+        }
+        .mainlogo h2{
+        font-size: 13px;
+        margin-left: -20px;
+        color:#301E21;
+        font-weight: 500;
+
+        }
+        .message-box
+        {
+        margin-top: 20px;
+
+        }
+        .message-box >div{
+        background-color: #FFFFFF;
+        width: 320px;
+        margin-left: -12%;
+        box-shadow: 2px 3px 5px #cccc;
+
+        }
+
+        .message-box #one input{
+        width: 220px;
+        height: 40px;
+        border-radius: 7px;
+        border:1px #cccc solid;
+        background-color: #FFFFFF;
+        margin-left: 40px;
+        padding-left: 20px;
+        margin-top: 20px;
+        }
+
+        .message-box #two input{
+        width: 220px;
+        height: 40px;
+        border-radius: 7px;
+        border:1px #cccc solid;
+        background-color: #FFFFFF;
+        margin-left: 40px;
+        padding-left: 20px;
+        margin-top: 10px;
+        }
+
+        .message-box #btn1 button{
+        width: 220px;
+        height: 40px;
+        background-color: #1877F2;
+        border-radius: 7px;
+        border: none;
+        color:white;
+        font-size: 10px;
+        margin-left: 40px;
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        }
+
+        .message-box a{
+        display: block;
+        text-decoration: none;
+        color: #1877F2;
+        margin-left: 105px;
+        background-color: #FFFFFF;
+        /* margin-top:20px; */
+        padding-bottom: 20px;
+        font-size: 10px;
+
+        }     
+        .message-box a:hover{
+            text-decoration: underline;
+        }
+        .message-box #btn2 button{
+
+ 
+            width: 120px;
+            height: 40px;
+            border: none;
+            border-radius: 7px;
+            background-color: #36A420;
+            color: white;
+            font-size: 10px;
+            margin-top: 20px;
+            margin-left: 90px;
+            margin-bottom: 30px;
+        }
+        .message-box #hori{
+            border: 1px #cccc solid;
+            background-color: #FFFFFF;
+        }   
+        
+        #last   {
+            background-color: #F0F2F5;
+            font-weight: bolder;
+            color: black;
+            text-decoration: none;
+            margin-top: 20px;
+            font-size: 10px;
+            box-shadow: none;
+           
+        }
+        #last a{
+            background-color: #F0F2F5;
+            display: inline;
+            font-size: 10px;
+            margin-left: 40px;
+            color: #301E21;
+          
+        }
+        

@@ -1,0 +1,129 @@
+/* for mobile  */
+[class*="col-"]{
+    width: 100%;
+
+}
+*{
+    background-color: #F0F2F5;
+    font-family: klavika-web, sans-serif;
+}
+.shb{
+   margin: 0 auto;
+   width: 250px;
+   margin-top: 80px;
+}
+.mainlogo h1{
+    font-size: 60px;
+    margin-top: -60px;
+    padding: 10px;
+    color: #1877F2;
+    font-weight: 600;
+    margin-left: -10px;
+}
+.mainlogo h2{
+    font-size: 18px;
+    margin-left: -20px;
+    color:#301E21;
+    font-weight: 500;
+     
+}
+.mainlogo::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.message-box
+{
+margin-top: 50px;
+
+}
+.message-box >div{
+    background-color: #FFFFFF;
+   width: 420px;
+   margin-left: -32%;
+   box-shadow: 2px 3px 5px #cccc;
+  
+}
+.message-box #one input{
+width: 340px;
+height: 50px;
+border-radius: 7px;
+border:1px #cccc solid;
+background-color: #FFFFFF;
+margin-left: 40px;
+padding-left: 20px;
+margin-top: 20px;
+}
+.message-box #two input{
+width: 340px;
+height: 50px;
+ border-radius: 7px;
+border:1px #cccc solid;
+background-color: #FFFFFF;
+margin-left: 40px;
+padding-left: 20px;
+margin-top: 20px;
+ }
+ .message-box #btn1 button{
+width: 340px;
+height: 50px;
+background-color: #1877F2;
+border-radius: 7px;
+border: none;
+color:white;
+font-size: 20px;
+margin-left: 40px;
+
+margin-top: 20px;
+margin-bottom: 20px;
+ }
+.message-box a{
+display: block;
+ text-decoration: none;
+color: #1877F2;
+margin-left: 135px;
+background-color: #FFFFFF;
+/* margin-top:20px; */
+padding-bottom: 20px;
+
+}
+.message-box a:hover{
+    text-decoration: underline;
+}
+
+.message-box #btn2 button{
+
+ 
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    background-color: #36A420;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+.message-box #hori{
+    border: 1px #cccc solid;
+    background-color: #FFFFFF;
+}
+
+
+.end-line{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+.end-line a  {
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+.message-box::after{
+    clear: both;
+    display: table;
+    content: '';
+}
